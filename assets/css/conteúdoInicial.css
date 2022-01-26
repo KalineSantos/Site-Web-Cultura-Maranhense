@@ -1,0 +1,174 @@
+/*SUBTITULO*/
+.subtitulo{
+    padding: 2.5rem;
+    text-align: center;
+    width: 800px;
+    display: inline-block;
+
+    font-family: Pacifico, cursive;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 140px;
+    color: #8D0606;
+    position: absolute;
+}
+
+#ajuste-display{
+    top:537px;
+    position: absolute;
+}
+
+/*DESCRIÇÃO POEMA*/
+.titulo-poema{
+    position: absolute;
+    width: 272px;
+    height: 41px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+.dedicaçao-poema{
+    position: absolute;
+    width: 228px;
+    height: 50px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+.poema{
+    text-align: left;
+    
+    font-style: normal;
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-weight: 15px;
+    line-height: 22px;
+    position: relative;
+}
+
+.autor-poema{
+    position: absolute;
+    width: 228px;
+    height: 50px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+/*IMAGEM POEMA*/
+.imagem-poema{
+    position: absolute;
+    left: 379px;
+    top: 253.89px;
+    z-index: -2;
+}
+
+/*MAPA DO MARANHÃO*/
+/*Imagem Localiza aí*/
+.localizaAI{
+    position: absolute;
+    width: 327px;
+    height: 532px;
+    left: 751px;
+    top: 40px;
+}
+#ajusteMapa{
+    position: relative;
+    top: -195px;
+    left: 225%;
+}
+.localizaAI-descriçao{
+    position: absolute;
+    left: 223.5%;
+    top: 509px;
+}
+
+/*//RESPONSIVIDADE//*/
+
+/*SUBTITULO*/
+@media screen and (min-width: 0){
+    .subtitulo{
+        font-size: 2rem;
+        top: -47%;
+        left: -51%;
+        position: absolute;
+    }
+}
+@media screen and (min-width: 768px){
+    .subtitulo{
+        font-size: 2.1875rem;
+        top: -6%;
+        left: 60%;
+        position: absolute;
+    }
+}
+
+/*DESCRIÇÃO POEMA*/
+@media screen and (min-width: 0){
+    .titulo-poema{
+        left: 0%;
+        top: -18%;
+    }
+}
+@media screen and (min-width: 768px){
+    .titulo-poema{
+        left: 30%;
+        top: 18%;
+    }
+} 
+
+@media screen and (min-width: 0){
+    .dedicaçao-poema{
+        left: 29%;
+        top: -12%;
+    }
+}
+@media screen and (min-width: 768px){
+    .dedicaçao-poema{
+        left: 62%;
+        top: 23%;
+    }
+} 
+@media screen and (min-width: 0){
+    .poema{
+        left: 1%;
+        text-indent: 5rem;
+        top: -71px;
+    } 
+ }
+ @media screen and (min-width: 768px){
+     .poema{
+         left: 31%;
+         text-indent: 5rem;
+         top: 167px;
+     } 
+ } 
+
+ @media screen and (min-width: 0){
+    .autor-poema{
+        top: 46%;
+        left: 47%;
+    }
+}
+@media screen and (min-width: 768px){
+    .autor-poema{
+        top: 79%;
+        left: 200px;
+    }
+} 
+
+ 

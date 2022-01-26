@@ -1,0 +1,38 @@
+.h-sobre h1{
+    margin: 0 auto;
+    width: 980px;
+    top: 104PX;
+    padding: 1rem;
+    font-size: 28px;
+    text-align: justify;
+    text-indent: 0rem;
+}
+
+.h-sobre h2{
+    margin: 0 auto;
+    width: 980px;
+    top: 104PX;
+    padding: 1rem;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 0rem;
+}
+
+.p-texto{
+    text-align: justify;
+    text-indent: 2rem;
+    padding: 4rem;
+    font-size: 1.2rem;
+    padding-left: 178px;
+    padding-top: 10px;
+}
+
+.cop-br {
+    background-image: url('../img/footer2.png');
+    color: #c1c1c1;
+    height: 30px;   
+}
+.cop-br p{
+   padding: 5px;
+   text-align: center; 
+}

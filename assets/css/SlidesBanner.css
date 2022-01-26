@@ -1,0 +1,92 @@
+
+/*Configuração básica de largura e alinhamento na página*/
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: -4;
+    top: 15px;
+}
+
+/*Estilos para os botões do Slider*/
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 1;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/anterior.png');
+    background-color: rgba(255, 255, 255, 0.5);
+}
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 1;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/proximo.png');
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*Estilo para os Dots do slide*/
+.slick-dots li button{
+    font-size: 0px;
+    border: 5px solid #fff;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;  
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+
+}
+li.slick-active button{
+    background: tomato;
+}
+.slick-dots li{
+    display: inline-block;
+    padding-left: 10PX;
+}
+/*Ocultar a barra Scrol horizontal*/
+.slick-initialized{
+    overflow: hidden;
+}
+
+
+/*//RESPONSIVIDADE//*/
+
+/*Estilos para os botões do Slider*/
+@media screen and (min-width: 0){
+    button.slick-next{
+        top: 35%;
+        right: 15%;
+    }
+}
+
+@media screen and (min-width: 0){
+    button.slick-prev{
+        top: 35%;
+        left: 15%;
+    }
+}
+/*Estilo para os Dots do slide*/ 
+@media screen and (min-width: 0){
+    .slick-dots{
+        left: 35.5%;
+        top: 79%;  
+    }
+}
+@media screen and (min-width: 768px){
+    .slick-dots{
+        left: 45.5%;
+        top: 84%; 
+    }
+} 
